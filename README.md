@@ -63,15 +63,15 @@ Donde:
 
 ---
 
-# [TÍTULO DEL PROYECTO]
+# SCARA CIM
 
-**Tipo:** [PPS | PF]  
-**Año:** [2026] — **Cuatrimestre:** [1C | 2C]  
+**Tipo:** [PPS]  
+**Año:** [2026] — **Cuatrimestre:** [2C]  
 
 **Carrera:** Ingeniería Mecatrónica  
-**Materia / Curso:** [NOMBRE_DE_LA_MATERIA]  
-**Docente / Cátedra:** [NOMBRE_DOCENTE]  
-**Autor/es:** [APELLIDO, Nombre — Legajo] · [APELLIDO, Nombre — Legajo]
+**Materia / Curso:** [ROBOTICA]  
+**Docente / Cátedra:** [GONZALEZ, MARTIN]  
+**Autor/es:** [YACONO, Emiliano — 2008-00310]
 
 ---
 
