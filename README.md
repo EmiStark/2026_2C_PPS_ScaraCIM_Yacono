@@ -65,23 +65,24 @@ Donde:
 
 # SCARA CIM
 
-**Tipo:** [PPS]  
-**Año:** [2026] — **Cuatrimestre:** [2C]  
+**Tipo:** PPS  
+**Año:** 2026 — **Cuatrimestre:** 2C  
 
 **Carrera:** Ingeniería Mecatrónica  
-**Materia / Curso:** [ROBOTICA]  
-**Docente / Cátedra:** [GONZALEZ, MARTIN]  
-**Autor/es:** [YACONO, Emiliano — 2008-00310]
+**Materia / Curso:** Laboratorio de Robótica (CIM)  
+**Docente / Cátedra:** GONZÁLEZ, Martín; HIRAK, Matías; FRANCO, Nicolás  
+**Autor/es:** YÁCONO, Emiliano — 2008-00310
 
 ---
 
 ## Introducción / Objetivo
 
-**Contexto (2–4 líneas):**  
-[Describir contexto general y necesidad.]
+**Contexto:**  
+El laboratorio de la facultad dispone de una línea didáctica de montaje automatizado destinada a la formación práctica en el área de automatización y robótica industrial. La línea está compuesta por una cinta transportadora y cuatro robots que intervienen en distintas etapas del proceso, entre ellos un robot SCARA de cuatro grados de libertad encargado de realizar operaciones sobre las piezas ensambladas. En el marco de la presente PPS, se plantea continuar con la puesta a punto y el desarrollo de las funcionalidades de dicho robot, con el objetivo de favorecer su integración en la línea y facilitar su utilización en futuras actividades académicas.
 
 **Problema a resolver:**  
-[Describir el problema de forma concreta.]
+El robot SCARA se encuentra operativo, pero parte de sus programas y funcionalidades no están correctamente documentados, lo que dificulta su uso y continuidad por parte de futuros estudiantes.
+En este contexto, se debe desarrollar una secuencia que permita programar las tareas de ensamblaje y control de calidad deseados, estudiar las funcionalidades del robot, sus periféricos y su programación para que el sistema quede listo para futuras intervenciones.
 
 **Objetivo general:**  
 [Qué logra el sistema.]
