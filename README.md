@@ -85,12 +85,19 @@ El robot SCARA se encuentra operativo, pero parte de sus programas y funcionalid
 En este contexto, se debe desarrollar una secuencia que permita programar las tareas de ensamblaje y control de calidad deseados, estudiar las funcionalidades del robot, sus periféricos y su programación para que el sistema quede listo para futuras intervenciones.
 
 **Objetivo general:**  
-[Qué logra el sistema.]
+Continuar con la puesta a punto del robot SCARA de la línea de montaje del CIM, mediante el desarrollo y programación de las tareas asignadas, buscando lograr su funcionamiento autónomo dentro de la línea y generar la documentación necesaria para facilitar su utilización y futuras intervenciones.
 
-**Objetivos específicos (opcional):**
-- [Objetivo 1]
-- [Objetivo 2]
-- [Objetivo 3]
+**Objetivos específicos:**
+•	Analizar el sistema existente:
+Estudiar los programas, rutinas y configuraciones que ya están cargados en el robot para comprender su funcionamiento y determinar cuáles pueden ser reutilizados. 
+•	Investigar las funcionalidades del sistema:
+Comprender el funcionamiento del lenguaje ACL, el ATS, el Manager, las entradas/salidas y los periféricos asociados al SCARA.
+•	Desarrollar la secuencia de trabajo:
+Programar la tarea iniciada mediante IN[10], incluyendo la recepción de la pieza, carga de bolillas, traslado a la estación de control de calidad y devolución a la cinta. 
+•	Realizar pruebas y puesta a punto:
+Ajustar posiciones, movimientos y secuencias para lograr que la tarea se ejecute correctamente de manera autónoma. 
+•	Documentar y respaldar el trabajo:
+Documentar los programas y procedimientos desarrollados y establecer un sistema de versionado y respaldo mediante GitLab para facilitar la continuidad del proyecto.
 
 ---
 
