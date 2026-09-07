@@ -273,8 +273,7 @@ Otras rutinas: las entradas IN[9], IN[11] e IN[12] se encuentran asociadas respe
 ---
 
 ## Esquemáticos / Planos
-- [Plano/Esquemático 1] → `PLANOS/[archivo]`
-- [Plano/Esquemático 2] → `PLANOS/[archivo]`
+- [Plano/Esquemático 1] → `Planos/PL01_Esquema_SCARA.pdf`
 
 ---
 
