@@ -63,7 +63,7 @@ Donde:
 
 ---
 
-# SCARA CIM
+# Puesta a punto y programación del robot SCARA del CIM
 
 **Tipo:** PPS  
 **Año:** 2026 — **Cuatrimestre:** 2C  
@@ -122,37 +122,59 @@ Documentar los programas y procedimientos desarrollados y establecer un sistema 
 [Qué hace el proyecto + para quién + beneficio principal.]
 Puesta a punto y programación y documentación del robot SCARA perteneciente a la línea didáctica de montaje automatizado del CIM.
 
-**Elevator pitch (30 segundos):**  
-Este proyecto **[nombre del proyecto]** (tipo **[PPS/PF]**, **[AÑO] [CUATRIMESTRE]**) resuelve **[problema]** mediante **[solución]**.  
-Está orientado a **[público objetivo]** y permite **[beneficio medible]**.  
-Se implementa con **[tecnologías clave]** y se valida mediante **[pruebas/mediciones/demo]**.
+**Elevator pitch (30 segundos):**
+Este proyecto Puesta a punto y programación del robot SCARA del CIM (tipo PPS, 2026 2º cuatrimestre) resuelve la falta de documentación y conocimiento sobre parte de los programas y funcionalidades disponibles en el robot mediante el análisis del sistema existente, la investigación de sus herramientas y el desarrollo y puesta a punto de nuevas secuencias de trabajo.
+Está orientado a estudiantes y docentes que utilizan el CIM y permite disponer de un robot capaz de ejecutar de manera autónoma las tareas asignadas y de una base documentada para futuras intervenciones.
+Se implementa con un robot SCARA Eshed Robotics, el lenguaje ACL, el software ATS, el Manager y los periféricos asociados a la línea de montaje y se valida mediante pruebas de funcionamiento de las secuencias programadas, verificando los movimientos, posiciones y la interacción con los distintos elementos de la estación.
 
 ### Problema
-- **Contexto:** [laboratorio / industria / hogar / aula / etc.]
-- **Dolor principal:** [qué falla / qué es lento / qué es costoso / qué es riesgoso]
-- **Impacto:** [tiempo, costo, errores, seguridad, calidad]
+- **Contexto:** Laboratorio universitario
+- **Dolor principal:** Programas y funcionalidades del SCARA que no están suficientemente identificados, comprendidos o documentados, dificultando su aprovechamiento y continuidad.
+- **Impacto:** Mayor dificultad para utilizar, mantener y ampliar el sistema por parte de futuros alumnos.
 
 ### Solución propuesta
 - **Qué hace (features):**
-  - [Funcionalidad 1]
-  - [Funcionalidad 2]
-  - [Funcionalidad 3]
-- **Cómo lo hace (alto nivel):** [sensor → control → actuador → visualización]
-- **Valor diferencial:** [por qué es mejor / distinto]
+  - Análisis y clasificación de programas y rutinas existentes.
+  - Investigación de las herramientas de programación y periféricos del sistema.
+  - Desarrollo de la secuencia JOB01, activada mediante IN[10].
+  - Integración de la secuencia con el dispensador de bolitas, el robot cartesiano y la cinta transportadora.
+  - Pruebas y ajuste de movimientos y posiciones.
+  - Respaldo y versionado de los programas en GitLab.
+  - Documentación para facilitar la continuidad del proyecto.
+- **Cómo lo hace (alto nivel):** Entrada del Manager → ejecución de programas ACL mediante el controlador → movimiento del robot SCARA y accionamiento de los periféricos → transferencia de la pieza a las distintas estaciones de la línea.
+- **Valor diferencial:** El proyecto no se limita a desarrollar una nueva secuencia de funcionamiento, sino que busca recuperar, organizar y documentar el conocimiento asociado al robot y sus funcionalidades, facilitando su reutilización y la continuidad de futuros trabajos realizados por estudiantes.
 
 ### Alcance
 **Incluye:**
-- [X]
-- [Y]
+- Relevamiento y análisis de los programas, rutinas y funcionalidades existentes en el robot SCARA.
+- Investigación y utilización del lenguaje ACL, ATS, Manager y los periféricos asociados.
+- Desarrollo, programación y puesta a punto de la secuencia JOB01, incluyendo la interacción con el dispensador de bolillas, el robot cartesiano y la cinta transportadora.
+- Realización de pruebas para verificar el funcionamiento autónomo de la secuencia desarrollada.
+- Documentación de los programas, procedimientos y funcionalidades estudiadas.
+- Respaldo y versionado de los programas desarrollados mediante GitLab.
 
 **No incluye (por ahora):**
-- [A]
-- [B]
+- Desarrollo de las tareas correspondientes a JOB02, JOB03 y JOB04.
+- Implementación definitiva del sistema de control de calidad mediante la cámara.
+- Puesta en funcionamiento completa de la línea de montaje, ya que existen otros trabajos en desarrollo sobre los demás robots y estaciones.
+- Desarrollo de funcionalidades que excedan las tareas asignadas para la presente PPS.
 
 ### Estado del proyecto
-- **Madurez:** [idea / prototipo / MVP / validado]
-- **Qué funciona hoy:** [lista corta]
-- **Próximos pasos:** [lista corta]
+- **Madurez:** Prototipo funcional en desarrollo
+- **Qué funciona hoy:**
+- Robot SCARA operativo y capaz de ejecutar movimientos programados.
+  - Comunicación entre el PC, ATS, controlador y robot.
+  - Activación de tareas mediante las entradas del Manager.
+  - Secuencia JOB01 en desarrollo, incluyendo la manipulación de la pieza y la carga de bolillas.
+  - Interacción con el dispensador de bolitas y el robot cartesiano.
+- Posicionamiento de la pieza en la estación destinada al control de calidad.
+- **Próximos pasos:**
+- Completar la programación y puesta a punto de JOB01.
+- Realizar pruebas de funcionamiento autónomo de la secuencia.
+- Continuar investigando y documentando las funcionalidades y programas existentes.
+- Respaldar y versionar los programas desarrollados en GitLab.
+- Documentar los procedimientos para facilitar la continuidad del proyecto.
+- Evaluar la puesta en funcionamiento de la cámara para el control de calidad.
 
 ### Demo rápida
 - **Video / GIF:** [link o ruta en MULTIMEDIA]
