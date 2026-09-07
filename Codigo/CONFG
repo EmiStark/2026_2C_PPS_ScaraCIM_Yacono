@@ -1,0 +1,11 @@
+                PROGRAM   CONFG
+                *********************
+   2658: TRIGGER   JOB01 BY IN 10 1
+   2659: TRIGGER   JOB02 BY IN 9 1
+   2660: TRIGGER   JOB03 BY IN 11 1
+   2661: TRIGGER   JOB04 BY IN 12 1
+   2662: SET       OUT[11] = 1
+   2664: DELAY     50
+   2665: SET       OUT[11] = 0
+   2667: END
+(END)
