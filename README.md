@@ -304,8 +304,8 @@ Otras rutinas: las entradas IN[9], IN[11] e IN[12] se encuentran asociadas respe
 ---
 
 ## Autor
-**[APELLIDO, Nombre]** — [Legajo]  
-Contacto (opcional): [mail / LinkedIn]
+**YÁCONO, Emiliano** — Legajo: 2008-00310  
+Contacto (opcional): emilianoyacono@gmail.com / https://www.linkedin.com/in/emilianoyacono
 
 ---
 
@@ -314,8 +314,6 @@ uso académico
 
 ---
 
-## About (descripción corta del repositorio)
-
-Usar este texto (o similar) en el campo **About** de GitHub:
+## Puesta a punto y programación del robot SCARA del CIM
 
 **PPS — Puesta a punto y programación del robot SCARA del CIM — FI-UNLZ — 2026 2C — Yácono**
