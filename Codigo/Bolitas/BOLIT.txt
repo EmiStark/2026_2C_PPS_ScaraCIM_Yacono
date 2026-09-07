@@ -1,0 +1,16 @@
+                PROGRAM   BOLIT
+                *********************
+   2248: SET       CONT = 0
+   2249: SET       CONT1 = 0
+   2250: READ      "ingrese cantidad" CONT
+   2251: PRINT     CONT
+   2252: SET       OUT[2] = 0
+   2254: SET       OUT[2] = 1
+   2256: FOR       CONT1 = 1 TO CONT
+   2257:   WAIT      IN[2] = 1
+   2259:   WAIT      IN[2] = 0
+   2261:   PRINT     CONT1
+   2262: ENDFOR( 2256)
+   2263: SET       OUT[2] = 0
+   2265: END
+(END)

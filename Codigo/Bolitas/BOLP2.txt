@@ -1,0 +1,17 @@
+                PROGRAM   BOLP2
+                *********************
+   2741: * CARGA BOLITAS EN PZ2
+   2742: SPEED     20
+   2743: SPEEDL        40.000
+   2744: CLOSE
+   2745: MOVED     BOLPZ[5]
+   2746: MOVED     BOLPZ[6]
+   2747: MOVED     BOLPZ[7]
+   2748: SPEEDL        10.000
+   2749: MOVELD    BOLPZ[8]
+   2750: GOSUB     BOLIT
+   2751: DELAY     50
+   2752: MOVED     BOLPZ[5]
+   2753: MOVED     BOLPZ[1]
+   2754: END
+(END)

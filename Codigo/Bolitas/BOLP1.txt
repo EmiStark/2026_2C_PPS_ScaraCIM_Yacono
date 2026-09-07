@@ -1,0 +1,16 @@
+                PROGRAM   BOLP1
+                *********************
+   2727: SPEED     20
+   2728: SPEEDL        40.000
+   2729: CLOSE
+   2730: MOVED     BOLPZ[1]
+   2731: MOVED     BOLPZ[2]
+   2732: MOVED     BOLPZ[3]
+   2733: SPEEDL        10.000
+   2734: MOVELD    BOLPZ[4]
+   2735: GOSUB     BOLIT
+   2736: DELAY     100
+   2737: MOVED     BOLPZ[5]
+   2738: * LLEVA EL CONJUNTO ARMADO PARA CARGAR BO
+   2739: END
+(END)
