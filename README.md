@@ -198,6 +198,7 @@ Debido a que la cámara de control de calidad no se encuentra actualmente operat
 **Entradas (sensores / señales):**
 La estación del robot SCARA dispone de cuatro entradas asociadas al Manager, identificadas como IN[9], IN[10], IN[11] e IN[12].
 Para la secuencia desarrollada durante la PPS se utiliza IN[10], cuya activación inicia la rutina JOB01. Las entradas IN[9], IN[11] e IN[12] permanecen disponibles para la asignación de otras tareas o secuencias que puedan incorporarse posteriormente al sistema.
+Tambien es utilizada la entrada IN[2] que recibe las señales de un sensor inductivo usado para el conteo de bolitas durante la carga.
 
 **Procesamiento / Control:**
 El procesamiento de la secuencia se realiza mediante el controlador del robot SCARA, que ejecuta los programas y rutinas desarrollados en lenguaje ACL.
