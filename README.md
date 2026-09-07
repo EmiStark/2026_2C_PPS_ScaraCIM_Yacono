@@ -214,24 +214,21 @@ Otras rutinas: las entradas IN[9], IN[11] e IN[12] se encuentran asociadas respe
 ---
 
 ## Esquemáticos / Planos
-[Plano esquemático](Planos/PL01_Esquema_SCARA.pdf)
+- [Plano esquemático](Planos/PL01_Esquema_SCARA.pdf)
 
 ---
 
 ## Fotos / Videos
-- Foto 1 → `MULTIMEDIA/[archivo]`
-- Foto 2 → `MULTIMEDIA/[archivo]`
-- Video demo → `MULTIMEDIA/[archivo]` o [link]
-[Foto 1](Multimedia/SCARA_CIM_1.jpeg)
-[Foto 2](Multimedia/SCARA_CIM_2.jpeg)
-[Foto 3](Multimedia/SCARA_CIM_bolitas_1.jpeg)
-[Foto 4](Multimedia/SCARA_CIM_bolitas_2.jpeg)
-[Foto 5](Multimedia/SCARA_CIM_estacion_de_pegado_1.jpeg)
-[Foto 6](Multimedia/SCARA_CIM_estacion_de_pegado_2.jpeg)
-[Foto 7](Multimedia/SCARA_CIM_estacion00.jpeg)
-[Foto 8](Multimedia/SCARA_CIM_estacion22.jpeg)
-[Foto 9](Multimedia/SCARA_CIM_robot_cartesiano.jpeg)
-[Video demo](Multimedia/SCARA_CIM_JOB01.mp4)
+- [Foto 1](Multimedia/SCARA_CIM_1.jpeg)
+- [Foto 2](Multimedia/SCARA_CIM_2.jpeg)
+- [Foto 3](Multimedia/SCARA_CIM_bolitas_1.jpeg)
+- [Foto 4](Multimedia/SCARA_CIM_bolitas_2.jpeg)
+- [Foto 5](Multimedia/SCARA_CIM_estacion_de_pegado_1.jpeg)
+- [Foto 6](Multimedia/SCARA_CIM_estacion_de_pegado_2.jpeg)
+- [Foto 7](Multimedia/SCARA_CIM_estacion00.jpeg)
+- [Foto 8](Multimedia/SCARA_CIM_estacion22.jpeg)
+- [Foto 9](Multimedia/SCARA_CIM_robot_cartesiano.jpeg)
+- [Video demo](Multimedia/SCARA_CIM_JOB01.mp4)
 
 ---
 
