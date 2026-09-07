@@ -177,7 +177,7 @@ Se implementa con un robot SCARA Eshed Robotics, el lenguaje ACL, el software AT
   - Evaluar la puesta en funcionamiento de la cámara para el control de calidad.
 
 ### Demo rápida
-- **Video / GIF:** [Demostración de JOB01](multimedia/SCARA_CIM_JOB01.mp4)
+- **Video / GIF:** [Demostración de JOB01](Multimedia/SCARA_CIM_JOB01.mp4)
 - **Instrucciones express (2 minutos):**
   1) Encender el controlador del robot SCARA y establecer la comunicación con el PC mediante el software ATS.
   2) Preparar una pieza ensamblada en la cinta transportadora y activar la entrada IN[10] del Manager para iniciar la secuencia JOB01.
