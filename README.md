@@ -224,31 +224,34 @@ Esta interfaz fue particularmente importante durante la puesta en marcha, ya que
 - Hardware: robot SCARA de 4 GDL, controlador del robot, cinta transportadora y dispensador de bolitas.
 - PC: equipo conectado al controlador del robot.
 - Software: ATS para establecer la comunicación con el controlador y Manager para la supervisión y gestión de las entradas y salidas.
-- Programa: rutina JOB01 disponible en el controlador.
+- Programa: rutinas CONFG y JOB01 disponible en el controlador.
 
-### Instalación / Puesta en marcha
-1) [Clonar / descargar]
-2) [Instalar dependencias]
-3) [Cargar firmware / ejecutar]
-4) [Validar funcionamiento]
+### Puesta en marcha
+1) Encender el controlador del robot SCARA.
+2) Conectar el controlador al PC y establecer la comunicación mediante ATS.
+3) Ejecutar la rutina CONFG. Esta rutina configura las entradas del sistema y deja al controlador en espera de las señales provenientes del Manager.
+4) Preparar una pieza ensamblada en la cinta transportadora.
+5) Desde Manager, activar la entrada correspondiente a la tarea que se desea ejecutar:
+  - IN[10] → JOB01
+  - IN[9] → JOB02
+  - IN[11] → JOB03
+  - IN[12] → JOB04
+6) Para la demostración desarrollada durante la PPS, activar IN[10], iniciando la ejecución de JOB01.
+7) Verificar el desarrollo de la secuencia y la finalización de la rutina mediante la señal OUT[11].
 
 ### Uso
-- **Modo normal:** [cómo se usa]
-- **Calibración (si aplica):** [pasos]
-- **Notas:** [cuidados, recomendaciones]
-
-### Troubleshooting (opcional)
-- **Problema:** [X] → **Solución:** [Y]
-- **Problema:** [X] → **Solución:** [Y]
+- **Modo normal:** Modo normal: con la rutina CONFG en ejecución, el sistema permanece a la espera de una señal proveniente del Manager. La activación de una de las entradas configuradas inicia automáticamente la rutina asociada.
+JOB01: se inicia mediante IN[10] y ejecuta la secuencia correspondiente al SCARA.
+Otras rutinas: las entradas IN[9], IN[11] e IN[12] se encuentran asociadas respectivamente a JOB02, JOB03 y JOB04, quedando disponibles para las demás tareas asignadas al robot.
+- **Notas:** la rutina CONFG debe ejecutarse para establecer esta configuración antes de utilizar las entradas del Manager.
 
 ---
 
 ## Tecnologías utilizadas
-- **Robótica / Control:** [Arduino / ESP32 / Raspberry / etc.]
-- **Electrónica:** [sensores / drivers / etc.]
-- **Programación:** [C/C++ / Python / etc.]
-- **Plataformas / Tools:** [ROS / OpenCV / etc.]
-- **IA (si aplica):** [modelo / técnica]
+- **Robótica / Control:** Robot SCARA de 4 grados de libertad y su controlador dedicado.
+- **Electrónica:** Entradas y salidas digitales del controlador para la comunicación con el Manager, accionamiento del dispensador de bolillas y señales de estado.
+- **Programación:** Lenguaje ACL, utilizado para el desarrollo y modificación de programas, rutinas y secuencias de operación del robot.
+- **Plataformas / Tools:** Software ATS para comunicación y operación del controlador, y Manager para la gestión y supervisión de las entradas y salidas del sistema.
 
 ---
 
@@ -256,9 +259,15 @@ Esta interfaz fue particularmente importante durante la puesta en marcha, ya que
 
 | Componente | Cantidad | Modelo / Especificación | Función |
 |---|---:|---|---|
-| [Componente 1] | [1] | [Modelo] | [Función] |
+| Robot SCARA | 1 | [Eshed Robotics 4GDL] | [Manipulación y traslado de las piezas durante la secuencia] |
 | [Componente 2] | [2] | [Modelo] | [Función] |
 | [Componente 3] | [1] | [Modelo] | [Función] |
+
+Controlador del robot	1	—	Ejecución de los programas y control de los movimientos del SCARA
+Dispensador de bolillas	1	—	Suministro de bolillas durante el ensamblado
+Cinta transportadora	1	Línea didáctica CIM	Transporte de las piezas entre estaciones
+PC	1	—	Comunicación, programación y supervisión del controlador
+Cámara	1	—	Inspección visual de la pieza en la estación de control de calidad
 
 ---
 
