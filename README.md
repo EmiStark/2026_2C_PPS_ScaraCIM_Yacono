@@ -1,6 +1,6 @@
 ![Logo Institucional](https://github.com/JonatanBogadoUNLZ/PPS-Jonatan-Bogado/blob/9952aac097aca83a1aadfc26679fc7ec57369d82/LOGO%20AZUL%20HORIZONTAL%20-%20fondo%20transparente.png)
 
-# UNLZ — Facultad de Ingeniería (Plantilla de Proyecto)
+# UNLZ — Facultad de Ingeniería
 ## Ingeniería Mecatrónica — README
 
 ---
