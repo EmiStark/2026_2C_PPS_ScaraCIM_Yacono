@@ -1,0 +1,15 @@
+                PROGRAM   PUT11
+                *********************
+   2673: SPEED     20
+   2674: SPEEDL        40.000
+   2675: CLOSE
+   2676: MOVED     CIM2[2]
+   2677: MOVELD    CIM2[6]
+   2678: SPEEDL        10.000
+   2679: MOVELD    CIM2[3]
+   2680: OPEN
+   2681: SPEEDL        40.000
+   2682: MOVELD    CIM2[2]
+   2683: CLOSE
+   2684: END
+(END)

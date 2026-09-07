@@ -1,0 +1,14 @@
+                PROGRAM   PUT00
+                *********************
+   2316: SPEED     20
+   2317: SPEEDL        40.000
+   2318: CLOSE
+   2319: MOVED     CIM2[8]
+   2320: MOVELD    CIM2[9]
+   2321: SPEEDL        10.000
+   2322: MOVELD    CIM2[10]
+   2323: OPEN
+   2324: SPEEDL        40.000
+   2325: MOVELD    CIM2[8]
+   2326: END
+(END)

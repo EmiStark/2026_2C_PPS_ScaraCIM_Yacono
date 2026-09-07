@@ -1,0 +1,14 @@
+                PROGRAM   GET22
+                *********************
+   2390: SPEED     20
+   2391: SPEEDL        25.000
+   2392: OPEN
+   2393: MOVED     CIM2[17]
+   2394: MOVELD    CIM2[18]
+   2395: SPEEDL        10.000
+   2396: MOVELD    CIM2[19]
+   2397: CLOSE
+   2398: SPEEDL        30.000
+   2399: MOVELD    CIM2[17]
+   2400: END
+(END)

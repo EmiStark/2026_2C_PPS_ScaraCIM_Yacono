@@ -1,0 +1,14 @@
+                PROGRAM   GET12
+                *********************
+   2279: SPEED     20
+   2280: SPEEDL        40.000
+   2281: MOVED     CIM2[4]
+   2282: OPEN
+   2283: MOVELD    CIM2[7]
+   2284: SPEEDL        10.000
+   2285: MOVELD    CIM2[5]
+   2286: CLOSE
+   2287: SPEEDL        40.000
+   2288: MOVELD    CIM2[4]
+   2289: END
+(END)

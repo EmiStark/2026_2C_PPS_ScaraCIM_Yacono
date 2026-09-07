@@ -1,0 +1,12 @@
+                PROGRAM   PUT32
+                *********************
+   2424: SPEED     20
+   2425: SPEEDL        25.000
+   2426: CLOSE
+   2427: MOVED     CIM2[24]
+   2428: MOVELD    CIM2[25]
+   2429: OPEN
+   2430: SPEEDL        40.000
+   2431: MOVELD    CIM2[24]
+   2432: END
+(END)

@@ -1,0 +1,15 @@
+                PROGRAM   PUT41
+                *********************
+   2353: SPEED     20
+   2354: SPEEDL        25.000
+   2355: CLOSE
+   2356: MOVED     TESTB[1]
+   2357: MOVED     CIM2[11]
+   2358: MOVELD    CIM2[12]
+   2359: SPEEDL        10.000
+   2360: MOVELD    CIM2[13]
+   2361: OPEN
+   2362: SPEEDL        30.000
+   2363: MOVELD    CIM2[11]
+   2364: END
+(END)

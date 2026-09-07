@@ -1,0 +1,12 @@
+                PROGRAM   GET32
+                *********************
+   2414: SPEED     20
+   2415: SPEEDL        25.000
+   2416: OPEN
+   2417: MOVED     CIM2[24]
+   2418: MOVELD    CIM2[25]
+   2419: CLOSE
+   2420: SPEEDL        40.000
+   2421: MOVELD    CIM2[24]
+   2422: END
+(END)
