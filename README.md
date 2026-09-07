@@ -258,15 +258,16 @@ Otras rutinas: las entradas IN[9], IN[11] e IN[12] se encuentran asociadas respe
 ## Listado de componentes
 
 | Componente | Cantidad | Modelo / Especificación | Función |
-| Robot SCARA | 1 | [Eshed Robotics 4GDL] | [Manipulación y traslado de las piezas durante la secuencia] |
-| [Componente 2] | [2] | [Modelo] | [Función] |
-| [Componente 3] | [1] | [Modelo] | [Función] |
-
-Controlador del robot	1	—	Ejecución de los programas y control de los movimientos del SCARA
-Dispensador de bolillas	1	—	Suministro de bolillas durante el ensamblado
-Cinta transportadora	1	Línea didáctica CIM	Transporte de las piezas entre estaciones
-PC	1	—	Comunicación, programación y supervisión del controlador
-Cámara	1	—	Inspección visual de la pieza en la estación de control de calidad
+|---|---:|---|---|
+| Robot SCARA | 1 | Eshed Robotics 4GDL | Manipulación y traslado de las piezas durante la secuencia |
+| Robot cartesiano | 1 | 2 GDL | Colocación de la pieza ensamblada bajo la cámara para el control de calidad |
+| Controlador del robot | 1 | - | Ejecución de los programas y control de los movimientos del SCARA |
+| Dispensador de bolitas | 1 | - | Suministro de bolitas durante el ensamblado|
+| Cinta transportadora | 1 | - | Transporte de las piezas entre estaciones|
+| PC | 1 | - | Comunicación, programación y supervisión del controlador |
+| Cámara | 1 | Analógica | Inspección visual de la pieza en la estación de control de calidad (no usada en esta estapa) |
+| Estación de pegado | 1 |  | Colocación de adhesivo a las piezas a ensamblar (no usada en esta estapa) |
+| Calibre neumático | 1 | Calibre Vernier | Toma de dimensiones de las piezas (no usado en esta etapa) |
 
 ---
 
