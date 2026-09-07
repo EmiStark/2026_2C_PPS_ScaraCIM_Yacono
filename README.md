@@ -1,65 +1,7 @@
 ![Logo Institucional](https://github.com/JonatanBogadoUNLZ/PPS-Jonatan-Bogado/blob/9952aac097aca83a1aadfc26679fc7ec57369d82/LOGO%20AZUL%20HORIZONTAL%20-%20fondo%20transparente.png)
 
 # UNLZ — Facultad de Ingeniería (Plantilla de Proyecto)
-## Ingeniería Mecatrónica — README + estructura estándar
-
-Este repositorio es una **PLANTILLA**.  
-Los estudiantes deben **usar este repo como base** (fork o “Use this template”) y **reemplazar los textos entre corchetes** `[ ... ]` con la información real de su proyecto.
-
----
-
-## 📛 Naming del repositorio (OBLIGATORIO)
-
-El nombre del repositorio debe seguir este esquema:
-
-**`ANIO_CUATRIMESTRE_TIPO_PROYECTO_APELLIDOS`**
-
-Donde:
-- **ANIO**: año de cursada (ej. `2026`)
-- **CUATRIMESTRE**: `1C` o `2C`
-- **TIPO**: `PPS` o `PF` (Proyecto Final)
-- **PROYECTO**: nombre corto *sin espacios* (recomendado: `kebab-case` o `CamelCase`)
-- **APELLIDOS**: apellidos de integrantes separados por `_` (sin tildes, sin ñ)
-
-✅ Ejemplos:
-- `2026_1C_PPS_ComederoSmart_Salto_Vazquez`
-- `2026_2C_PF_MecaChess_Duarte_Diaz`
-- `2025_2C_PPS_Escaner3D_DalleRivePrieto_Labreniuk`
-
-> Nota: GitHub **no permite** usar “/” en el nombre del repositorio.  
-> Por eso se usa **TIPO = PPS o PF** como campo separado.
-
----
-
-## 🧩 Cómo usar esta plantilla (estudiantes)
-
-0) **Crear el repo con el nombre correcto (OBLIGATORIO)**  
-   Esquema: `ANIO_CUATRIMESTRE_TIPO_PROYECTO_APELLIDOS`
-
-1) Crear tu repositorio desde esta plantilla:
-   - Opción A (recomendada): **Use this template** → Create a new repository  
-   - Opción B: **Fork**
-
-2) Editar este archivo `README.md` completando todos los campos `[ ... ]`.
-
-3) Subir archivos a las carpetas correspondientes:
-   - Código en `CODIGO/`
-   - Planos y esquemas en `PLANOS/`
-   - Fotos / videos en `MULTIMEDIA/`
-   - Datasheets en `DATASHEET/`
-   - Informes en `INFORMES/`
-
----
-
-## ✅ Checklist de entrega
-- [ ] Naming correcto del repo: `ANIO_CUATRIMESTRE_TIPO_PROYECTO_APELLIDOS`
-- [ ] Título, autores, materia, **tipo (PPS/PF)**, año y cuatrimestre completos
-- [ ] Brief completo (one-liner + pitch + problema + solución + alcance + estado)
-- [ ] Instrucciones de uso reproducibles (otro puede correrlo)
-- [ ] Lista de componentes con cantidades y modelos
-- [ ] Esquemáticos/planos adjuntos en `PLANOS/`
-- [ ] Fotos / video demostración en `MULTIMEDIA/`
-- [ ] Informe PDF en `INFORMES/` (si aplica)
+## Ingeniería Mecatrónica — README
 
 ---
 
@@ -118,11 +60,10 @@ Documentar los programas y procedimientos desarrollados y establecer un sistema 
 
 ## Brief
 
-**One-liner (1 frase):**  
-[Qué hace el proyecto + para quién + beneficio principal.]
+**One-liner:**
 Puesta a punto y programación y documentación del robot SCARA perteneciente a la línea didáctica de montaje automatizado del CIM.
 
-**Elevator pitch (30 segundos):**
+**Elevator pitch:**
 Este proyecto Puesta a punto y programación del robot SCARA del CIM (tipo PPS, 2026 2º cuatrimestre) resuelve la falta de documentación y conocimiento sobre parte de los programas y funcionalidades disponibles en el robot mediante el análisis del sistema existente, la investigación de sus herramientas y el desarrollo y puesta a punto de nuevas secuencias de trabajo.
 Está orientado a estudiantes y docentes que utilizan el CIM y permite disponer de un robot capaz de ejecutar de manera autónoma las tareas asignadas y de una base documentada para futuras intervenciones.
 Se implementa con un robot SCARA Eshed Robotics, el lenguaje ACL, el software ATS, el Manager y los periféricos asociados a la línea de montaje y se valida mediante pruebas de funcionamiento de las secuencias programadas, verificando los movimientos, posiciones y la interacción con los distintos elementos de la estación.
@@ -133,7 +74,7 @@ Se implementa con un robot SCARA Eshed Robotics, el lenguaje ACL, el software AT
 - **Impacto:** Mayor dificultad para utilizar, mantener y ampliar el sistema por parte de futuros alumnos.
 
 ### Solución propuesta
-- **Qué hace (features):**
+- **Qué hace:**
   - Análisis y clasificación de programas y rutinas existentes.
   - Investigación de las herramientas de programación y periféricos del sistema.
   - Desarrollo de la secuencia JOB01, activada mediante IN[10].
@@ -141,7 +82,7 @@ Se implementa con un robot SCARA Eshed Robotics, el lenguaje ACL, el software AT
   - Pruebas y ajuste de movimientos y posiciones.
   - Respaldo y versionado de los programas en GitLab.
   - Documentación para facilitar la continuidad del proyecto.
-- **Cómo lo hace (alto nivel):** Entrada del Manager → ejecución de programas ACL mediante el controlador → movimiento del robot SCARA y accionamiento de los periféricos → transferencia de la pieza a las distintas estaciones de la línea.
+- **Cómo lo hace:** Entrada del Manager → ejecución de programas ACL mediante el controlador → movimiento del robot SCARA y accionamiento de los periféricos → transferencia de la pieza a las distintas estaciones de la línea.
 - **Valor diferencial:** El proyecto no se limita a desarrollar una nueva secuencia de funcionamiento, sino que busca recuperar, organizar y documentar el conocimiento asociado al robot y sus funcionalidades, facilitando su reutilización y la continuidad de futuros trabajos realizados por estudiantes.
 
 ### Alcance
@@ -153,7 +94,7 @@ Se implementa con un robot SCARA Eshed Robotics, el lenguaje ACL, el software AT
 - Documentación de los programas, procedimientos y funcionalidades estudiadas.
 - Respaldo y versionado de los programas desarrollados mediante GitLab.
 
-**No incluye (por ahora):**
+**No incluye:**
 - Desarrollo de las tareas correspondientes a JOB02, JOB03 y JOB04.
 - Implementación definitiva del sistema de control de calidad mediante la cámara.
 - Puesta en funcionamiento completa de la línea de montaje, ya que existen otros trabajos en desarrollo sobre los demás robots y estaciones.
@@ -178,7 +119,7 @@ Se implementa con un robot SCARA Eshed Robotics, el lenguaje ACL, el software AT
 
 ### Demo rápida
 - **Video / GIF:** [Demostración de JOB01](Multimedia/SCARA_CIM_JOB01.mp4)
-- **Instrucciones express (2 minutos):**
+- **Instrucciones express:**
   1) Encender el controlador del robot SCARA y establecer la comunicación con el PC mediante el software ATS.
   2) Preparar una pieza ensamblada en la cinta transportadora y activar la entrada IN[10] del Manager para iniciar la secuencia JOB01.
   3) Verificar que el SCARA recibe la pieza, realiza la carga de bolillas, la traslada a la estación de control de calidad y finalmente la devuelve a la cinta transportadora.
@@ -195,7 +136,7 @@ Debido a que la cámara de control de calidad no se encuentra actualmente operat
 
 ## Arquitectura del sistema
 
-**Entradas (sensores / señales):**
+**Entradas:**
 La estación del robot SCARA dispone de cuatro entradas asociadas al Manager, identificadas como IN[9], IN[10], IN[11] e IN[12].
 Para la secuencia desarrollada durante la PPS se utiliza IN[10], cuya activación inicia la rutina JOB01. Las entradas IN[9], IN[11] e IN[12] permanecen disponibles para la asignación de otras tareas o secuencias que puedan incorporarse posteriormente al sistema.
 Tambien es utilizada la entrada IN[2] que recibe las señales de un sensor inductivo usado para el conteo de bolitas durante la carga.
@@ -207,12 +148,12 @@ El ATS se utiliza como herramienta de comunicación y operación del controlador
 De esta manera, la lógica general puede representarse como:
 IN[10] → JOB01 → recepción → carga de bolitas → traslado → control de calidad → retorno a cinta
 
-**Salidas (actuadores / señales):**
+**Salidas:**
 El programa JOB01 utiliza dos salidas principales:
   - OUT[2]: habilita y deshabilita el funcionamiento del dispensador de bolitas durante la etapa de carga de la pieza.
   - OUT[11]: señal vinculada al Manager, utilizada como aviso de finalización de la rutina JOB01.
 
-**Interfaz (si aplica):**
+**Interfaz:**
 La interacción con el sistema durante la etapa de desarrollo y puesta en marcha se realiza principalmente mediante una PC conectada al controlador del SCARA.
 El software ATS permite establecer la comunicación con el controlador y operar sobre los programas del robot, mientras que Manager se utiliza para supervisar y modificar las señales de entrada y salida durante las pruebas.
 Esta interfaz fue particularmente importante durante la puesta en marcha, ya que permitió verificar individualmente las señales y comprobar el comportamiento del robot antes de ejecutar la secuencia completa.
@@ -305,7 +246,7 @@ Otras rutinas: las entradas IN[9], IN[11] e IN[12] se encuentran asociadas respe
 
 ## Autor
 **YÁCONO, Emiliano** — Legajo: 2008-00310  
-Contacto (opcional): emilianoyacono@gmail.com / https://www.linkedin.com/in/emilianoyacono
+Contacto: emilianoyacono@gmail.com / https://www.linkedin.com/in/emilianoyacono
 
 ---
 
