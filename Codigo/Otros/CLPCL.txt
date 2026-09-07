@@ -1,0 +1,5 @@
+                PROGRAM   CLPCL
+                *********************
+    571: SET       OUT[5] = 0
+    573: DELAY     250
+    574: END

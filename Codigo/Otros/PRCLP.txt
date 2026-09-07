@@ -1,0 +1,42 @@
+               PROGRAM   PRCLP
+                *********************
+    506: IF        CCHAR = 48
+    507:   PRINT     "0"
+    508: ENDIF( 506)
+    509: IF        CCHAR = 49
+    510:   PRINT     "1"
+    511: ENDIF( 509)
+    512: IF        CCHAR = 50
+    513:   PRINT     "2"
+    514: ENDIF( 512)
+    515: IF        CCHAR = 51
+    516:   PRINT     "3"
+    517: ENDIF( 515)
+    518: IF        CCHAR = 52
+    519:   PRINT     "4"
+    520: ENDIF( 518)
+    521: IF        CCHAR = 53
+    522:   PRINT     "5"
+    523: ENDIF( 521)
+    524: IF        CCHAR = 54
+    525:   PRINT     "6"
+    526: ENDIF( 524)
+    527: IF        CCHAR = 55
+    528:   PRINT     "7"
+    529: ENDIF( 527)
+    530: IF        CCHAR = 56
+    531:   PRINT     "8"
+    532: ENDIF( 530)
+    533: IF        CCHAR = 57
+    534:   PRINT     "9"
+    535: ENDIF( 533)
+    536: IF        CCHAR = 46
+    537:   PRINT     "."
+    538: ENDIF( 536)
+    539: IF        CCHAR = 43
+    540:   PRINT     "+"
+    541: ENDIF( 539)
+    542: IF        CCHAR = 45
+    543:   PRINT     "-"
+    544: ENDIF( 542)
+    545: END

@@ -1,0 +1,5 @@
+                PROGRAM   CLPOP
+                *********************
+    566: SET       OUT[5] = 1
+    568: DELAY     350
+    569: END

@@ -1,0 +1,30 @@
+GETCL?
+
+
+
+		EVACL
+                *********************
+    480: SET       CLLOC = 0
+    481: SET       K = 100000
+    482: IF        CLREC[1] = 43
+    484:   SET       CLSGN = 1
+    485: ELSE( 482)
+>
+    486:   SET       CLSGN = -1
+    487: ENDIF( 482)
+    488: FOR       I = 2 TO 9
+    489:   IF        CLREC[I] = 46
+    491:     SET       CLPNT = I
+    492:   ELSE( 489)
+    493:     SET       J=CLREC[I] - 48
+    495:     SET       J=J * K
+    496:     SET       CLLOC=CLLOC + J
+    497:     SET       K=K / 10
+    498:   ENDIF( 489)
+    499: ENDFOR( 488)
+    500: SET       CLNUM=CLLOC * CLSGN
+    501: IF        CLDBG = 1
+    502:   PRINTLN   "Number From calliper :" CLNUM
+    503: ENDIF( 501)
+    504: END
+

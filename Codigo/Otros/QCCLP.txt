@@ -1,0 +1,28 @@
+                 PROGRAM   QCCLP
+                *********************
+    692: SET       CLPFL = 0
+    693: PRINTLN
+    694: LABEL     11
+    695: READ      "?%ID?" $IDL
+    696: IF        $IDL = 0
+    697:   GOTO      11
+    698: ENDIF( 696)
+    699: SET       $I = 1
+    700: SET       CLID = $IDL
+    701: GOSUB     GT_CL
+    702: * QC CALIPER GAGE
+    703: GOSUB     GETCL
+    704: GOSUB     PT_CL
+    705: PEND      $PDF FROM $PDD
+    706: PRINTLN
+    707: IF        CLPFL = 1
+    708:   PRINT     "%QC" $IDL
+    709:   PRINT     " "
+    710:   GOSUB     PRNCL
+    711: ELSE( 707)
+    712:   PRINTLN   "%ERROR " CLID " 1 0 0 Caliper_TIMEO"
+    713: ENDIF( 707)
+    714: PRINTLN
+    715: POST      1 TO $PDD
+    716: END
+(END)

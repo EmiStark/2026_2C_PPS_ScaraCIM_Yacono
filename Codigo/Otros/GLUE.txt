@@ -1,0 +1,32 @@
+                PROGRAM   GLUE
+                *********************
+    718: SET       GL3 = 400
+    719: SET       GL2=410 + PRTXY
+    720: SET       GL1=400 + PRTXY
+    721: SET       GLB1=80 + PRTXY
+    722: SET       GLB2=90 + PRTXY
+    723: SET       GLB3=100 + PRTXY
+    724: SET       GLB4=110 + PRTXY
+    725: GOSUB     GT_GL
+    726: SPEEDA    SPFA
+    727: SPEEDB    SPFB
+    728: MOVED     CIMB[GLB1]
+    729: MOVED     CIM[GL3]
+    730: MOVED     CIM[GL2]
+    731: SPEEDA    SPSA
+    732: SPEEDB    SPSB
+    733: MOVED     CIM[GL1]
+    734: MOVED     CIMB[GLB1]
+    735: SET       OUT[4] = 1
+    737: MOVE      CIMB[GLB2]
+    738: MOVE      CIMB[GLB3]
+    739: MOVE      CIMB[GLB4]
+    740: MOVED     CIMB[GLB1]
+    741: SET       OUT[4] = 0
+    743: MOVED     CIM[GL2]
+    744: SPEEDA    SPFA
+    745: SPEEDB    SPFB
+    746: MOVED     CIM[GL3]
+    747: GOSUB     PT_GL
+    748: END
+(END)

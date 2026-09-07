@@ -1,0 +1,25 @@
+                PROGRAM   GT_GL
+                *********************
+    955: SPEEDA    SPMA
+    956: SPEEDB    SPMB
+    957: MOVED     CIM[420]
+    958: MOVED     CIM[422]
+    959: GOSUB     OGRIP
+    960: SPEEDA    SPSA
+    961: SPEEDB    SPSB
+    962: MOVED     CIM[421]
+    963: GOSUB     CGRIP
+    964: MOVED     CIM[422]
+    965: SPEEDA    SPFA
+    966: SPEEDB    SPFB
+    967: MOVED     CIM[420]
+    968: END
+(END)
+
+>RUN PARAM
+SPMA =  30
+SPMB =  40
+SPSA =  5
+SPSB =  10
+SPFA =  40
+SPFB =  80

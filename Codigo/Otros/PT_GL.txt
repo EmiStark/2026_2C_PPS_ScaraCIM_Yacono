@@ -1,0 +1,16 @@
+                PROGRAM   PT_GL
+                *********************
+    970: SPEEDA    SPMA
+    971: SPEEDB    SPMB
+    972: MOVED     CIM[420]
+    973: MOVED     CIM[422]
+    974: SPEEDA    SPSA
+    975: SPEEDB    SPSB
+    976: MOVED     CIM[421]
+    977: GOSUB     OGRIP
+    978: MOVED     CIM[422]
+    979: SPEEDA    SPFA
+    980: SPEEDB    SPFB
+    981: MOVED     CIM[420]
+    982: END
+(END)

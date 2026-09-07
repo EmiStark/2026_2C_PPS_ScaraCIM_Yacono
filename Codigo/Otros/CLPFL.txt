@@ -1,0 +1,8 @@
+                PROGRAM   CLPFL
+                *********************
+    576: IF        OUT[5] = 0
+    578:   SET       OUT[5] = 1
+    580: ELSE( 576)
+    581:   SET       OUT[5] = 0
+    583: ENDIF( 576)
+    584: END

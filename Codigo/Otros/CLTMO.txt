@@ -1,0 +1,14 @@
+                PROGRAM   CLTMO
+                *********************
+    467: WAIT      CLTMO < TIME
+    468: IF        CLDBG = 1
+    469:   PRINTLN   "CLTMO asking PRI once more"
+    470: ENDIF( 468)
+    471: GOSUB     PRI
+    472: SET       CLTMO=TIME + 100
+    473: WAIT      CLTMO < TIME
+    474: PRINTLN
+    475: PRINTLN   " CaliperGauge Time Out Error"
+    476: PRINTLN   "----------------------------"
+    477: STOP      GETCL
+    478: END

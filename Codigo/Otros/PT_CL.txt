@@ -1,0 +1,17 @@
+                PROGRAM   PT_CL
+                *********************
+    665: SET       P5 = 273
+    666: SET       P4 = 272
+    667: SET       P3 = 271
+    668: SET       P2=290 + PRTCL
+    669: SET       P1=280 + PRTCL
+    670: GOSUB     CLPCL
+    671: MOVED     CIM[P4]
+    672: SPEEDA    SPSA
+    673: MOVED     CIM[P3]
+    674: GOSUB     OGRIP
+    675: MOVELD    CIM[P4]
+    676: SPEEDA    SPMA
+    677: MOVED     CIM[P5]
+    678: END
+(END)

@@ -1,0 +1,14 @@
+                PROGRAM   QC01
+                *********************
+   2756: *SIMULACION DE QC CON CAM
+   2757: *LLEVA EL PALLET BAJO LA CAM
+   2758: *ESPERA 3 SEG Y VUELVE
+   2759: SPEED     20
+   2760: SPEEDL        20.000
+   2761: MOVED     CAM01[1]
+   2762: PRINTLN   "SIMULANDO QC"
+   2763: DELAY     300
+   2764: PRINTLN   "QC FINALIZADO"
+   2765: GOSUB     GET41
+   2766: END
+(END)
