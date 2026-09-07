@@ -258,7 +258,6 @@ Otras rutinas: las entradas IN[9], IN[11] e IN[12] se encuentran asociadas respe
 ## Listado de componentes
 
 | Componente | Cantidad | Modelo / Especificación | Función |
-|---|---:|---|---|
 | Robot SCARA | 1 | [Eshed Robotics 4GDL] | [Manipulación y traslado de las piezas durante la secuencia] |
 | [Componente 2] | [2] | [Modelo] | [Función] |
 | [Componente 3] | [1] | [Modelo] | [Función] |
