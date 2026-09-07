@@ -120,6 +120,7 @@ Documentar los programas y procedimientos desarrollados y establecer un sistema 
 
 **One-liner (1 frase):**  
 [Qué hace el proyecto + para quién + beneficio principal.]
+Puesta a punto y programación de un robot SCARA perteneciente a una línea didáctica de montaje automatizado, buscando lograr su funcionamiento autónomo y documentar sus procedimientos para facilitar la continuidad del proyecto.
 
 **Elevator pitch (30 segundos):**  
 Este proyecto **[nombre del proyecto]** (tipo **[PPS/PF]**, **[AÑO] [CUATRIMESTRE]**) resuelve **[problema]** mediante **[solución]**.  
