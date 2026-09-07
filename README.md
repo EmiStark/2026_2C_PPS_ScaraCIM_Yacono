@@ -162,26 +162,26 @@ Se implementa con un robot SCARA Eshed Robotics, el lenguaje ACL, el software AT
 ### Estado del proyecto
 - **Madurez:** Prototipo funcional en desarrollo
 - **Qué funciona hoy:**
-- Robot SCARA operativo y capaz de ejecutar movimientos programados.
+  - Robot SCARA operativo y capaz de ejecutar movimientos programados.
   - Comunicación entre el PC, ATS, controlador y robot.
   - Activación de tareas mediante las entradas del Manager.
   - Secuencia JOB01 en desarrollo, incluyendo la manipulación de la pieza y la carga de bolillas.
   - Interacción con el dispensador de bolitas y el robot cartesiano.
-- Posicionamiento de la pieza en la estación destinada al control de calidad.
+  - Posicionamiento de la pieza en la estación destinada al control de calidad.
 - **Próximos pasos:**
-- Completar la programación y puesta a punto de JOB01.
-- Realizar pruebas de funcionamiento autónomo de la secuencia.
-- Continuar investigando y documentando las funcionalidades y programas existentes.
-- Respaldar y versionar los programas desarrollados en GitLab.
-- Documentar los procedimientos para facilitar la continuidad del proyecto.
-- Evaluar la puesta en funcionamiento de la cámara para el control de calidad.
+  - Completar la programación y puesta a punto de JOB01.
+  - Realizar pruebas de funcionamiento autónomo de la secuencia.
+  - Continuar investigando y documentando las funcionalidades y programas existentes.
+  - Respaldar y versionar los programas desarrollados en GitLab.
+  - Documentar los procedimientos para facilitar la continuidad del proyecto.
+  - Evaluar la puesta en funcionamiento de la cámara para el control de calidad.
 
 ### Demo rápida
 - **Video / GIF:** [link o ruta en MULTIMEDIA]
 - **Instrucciones express (2 minutos):**
-  1) [Paso 1]
-  2) [Paso 2]
-  3) [Paso 3]
+  1) Encender el controlador del robot SCARA y establecer la comunicación con el PC mediante el software ATS.
+  2) Preparar una pieza ensamblada en la cinta transportadora y activar la entrada IN[10] del Manager para iniciar la secuencia JOB01.
+  3) Verificar que el SCARA recibe la pieza, realiza la carga de bolillas, la traslada a la estación de control de calidad y finalmente la devuelve a la cinta transportadora.
 
 ---
 
