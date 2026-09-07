@@ -186,37 +186,45 @@ Se implementa con un robot SCARA Eshed Robotics, el lenguaje ACL, el software AT
 ---
 
 ## Descripción técnica
-[Explicación técnica del funcionamiento, decisiones de diseño y consideraciones.]
+El sistema desarrollado se integra a la línea didáctica de automatización de la UNLZ. La estación analizada corresponde al robot SCARA de 4 GDL, encargado de intervenir sobre las piezas durante distintas etapas del proceso.
+La secuencia principal se encuentra programada en JOB01 y se inicia mediante la activación de la entrada IN[10]. A partir de esta señal, el robot ejecuta las operaciones de recepción de la pieza, carga de bolitas, traslado hacia la estación de control de calidad y posterior retorno a la cinta transportadora.
+El control se realiza mediante el controlador del robot y programas desarrollados en lenguaje ACL, utilizando ATS y Manager para la comunicación, configuración, ejecución y supervisión del sistema. Durante el desarrollo se analizaron y reutilizaron rutinas existentes, incorporando nuevas tareas cuando fue necesario.
+Debido a que la cámara de control de calidad no se encuentra actualmente operativa, esta etapa se implementó de forma simulada: el robot posiciona la pieza debajo de la cámara, espera aproximadamente tres segundos y luego continúa la secuencia.
 
 ---
 
 ## Arquitectura del sistema
 
 **Entradas (sensores / señales):**
-- [Sensor 1]
-- [Sensor 2]
+La estación del robot SCARA dispone de cuatro entradas asociadas al Manager, identificadas como IN[9], IN[10], IN[11] e IN[12].
+Para la secuencia desarrollada durante la PPS se utiliza IN[10], cuya activación inicia la rutina JOB01. Las entradas IN[9], IN[11] e IN[12] permanecen disponibles para la asignación de otras tareas o secuencias que puedan incorporarse posteriormente al sistema.
 
 **Procesamiento / Control:**
-- [Microcontrolador / PC / algoritmo / lógica]
+El procesamiento de la secuencia se realiza mediante el controlador del robot SCARA, que ejecuta los programas y rutinas desarrollados en lenguaje ACL.
+La lógica de funcionamiento se organiza mediante tareas y subrutinas, permitiendo dividir la secuencia general en operaciones individuales. El programa JOB01 actúa como secuencia principal y coordina las distintas etapas del proceso.
+El ATS se utiliza como herramienta de comunicación y operación del controlador desde el PC, mientras que Manager permite interactuar con las señales de entrada y salida y realizar tareas de supervisión durante las pruebas.
+De esta manera, la lógica general puede representarse como:
+IN[10] → JOB01 → recepción → carga de bolitas → traslado → control de calidad → retorno a cinta
 
 **Salidas (actuadores / señales):**
-- [Actuador 1]
-- [Actuador 2]
+El programa JOB01 utiliza dos salidas principales:
+  - OUT[2]: habilita y deshabilita el funcionamiento del dispensador de bolitas durante la etapa de carga de la pieza.
+  - OUT[11]: señal vinculada al Manager, utilizada como aviso de finalización de la rutina JOB01.
 
 **Interfaz (si aplica):**
-- [Pantalla / dashboard / app / web]
-
-> (Opcional) Insertar diagrama:
-![Diagrama de bloques](PLANOS/diagrama_bloques.png)
+La interacción con el sistema durante la etapa de desarrollo y puesta en marcha se realiza principalmente mediante una PC conectada al controlador del SCARA.
+El software ATS permite establecer la comunicación con el controlador y operar sobre los programas del robot, mientras que Manager se utiliza para supervisar y modificar las señales de entrada y salida durante las pruebas.
+Esta interfaz fue particularmente importante durante la puesta en marcha, ya que permitió verificar individualmente las señales y comprobar el comportamiento del robot antes de ejecutar la secuencia completa.
 
 ---
 
 ## Instrucciones de uso
 
 ### Requisitos previos
-- [Software / IDE]
-- [Drivers / librerías]
-- [Hardware mínimo]
+- Hardware: robot SCARA de 4 GDL, controlador del robot, cinta transportadora y dispensador de bolitas.
+- PC: equipo conectado al controlador del robot.
+- Software: ATS para establecer la comunicación con el controlador y Manager para la supervisión y gestión de las entradas y salidas.
+- Programa: rutina JOB01 disponible en el controlador.
 
 ### Instalación / Puesta en marcha
 1) [Clonar / descargar]
